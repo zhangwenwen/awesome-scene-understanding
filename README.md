@@ -46,11 +46,13 @@ A list of papers for scene understanding.
 
 ### Synthetic Dataset
 
-* 3D-FRONT: 3D Furnished Rooms with layOuts and semaNTics (CoRR'20) [[Project]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) [[Paper]](https://arxiv.org/abs/2011.09127) [[Code]](https://github.com/3D-FRONT-FUTURE/3D-FRONT-ToolBox) [[Rendering Tool]](https://github.com/alibaba/Trescope)
+* MINERVAS: Massive INterior EnviRonments VirtuAl Synthesis (CoRR'21) [[Project]](https://coohom.github.io/MINERVAS/) [[Paper]](https://arxiv.org/abs/2107.06149)
 
-* Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding (CoRR'20) [[Project]](https://mikeroberts3000.github.io/papers/hypersim) [[Paper]](https://arxiv.org/abs/2011.02523) [[Code]](https://github.com/apple/ml-hypersim)
+* 3D-FRONT: 3D Furnished Rooms with layOuts and semaNTics (ICCV'21) [[Project]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) [[Paper]](https://arxiv.org/abs/2011.09127) [[Code]](https://github.com/3D-FRONT-FUTURE/3D-FRONT-ToolBox) [[Rendering Tool]](https://github.com/alibaba/Trescope)
 
-* OpenRooms: An End-to-End Open Framework for Photorealistic Indoor Scene Datasets (CoRR'20) [[Project]](https://ucsd-openrooms.github.io/) [[Paper]](https://arxiv.org/abs/2007.12868)
+* Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding (ICCV'21) [[Project]](https://mikeroberts3000.github.io/papers/hypersim) [[Paper]](https://arxiv.org/abs/2011.02523) [[Code]](https://github.com/apple/ml-hypersim)
+
+* OpenRooms: An End-to-End Open Framework for Photorealistic Indoor Scene Datasets (CVPR'21) [[Project]](https://ucsd-openrooms.github.io/) [[Paper]](https://arxiv.org/abs/2007.12868)
 
 * Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling (ECCV'20) [[Project]](https://structured3d-dataset.org) [[Paper]](https://arxiv.org/abs/1908.00222) [[Code]](https://github.com/bertjiazheng/Structured3D)
 
@@ -68,7 +70,7 @@ A list of papers for scene understanding.
 
 ### Perspective Image
 
-* Holistic 3D Scene Understanding from a Single Image with Implicit Representation (CoRR'21) [[Paper]](https://arxiv.org/abs/2103.06422)
+* Holistic 3D Scene Understanding from a Single Image with Implicit Representation (CVPR'21) [[Paper]](https://arxiv.org/abs/2103.06422)
 
 * Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image (CVPR'20) [[Paper]](https://arxiv.org/abs/2002.12212) [[Code]](https://github.com/yinyunie/Total3DUnderstanding)
 
@@ -106,6 +108,8 @@ A list of papers for scene understanding.
 
 ### Panoramic Image
 
+* DeepPanoContext: Panoramic 3D Scene Understanding with Holistic Scene Context Graph and Relation-based Optimization (ICCV'21) [[Paper]](https://arxiv.org/abs/2108.10743) [[Code]](https://github.com/chengzhag/DeepPanoContext)
+
 * Automatic 3D Indoor Scene Modeling from Single Panorama (CVPR'18) [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_Automatic_3D_Indoor_CVPR_2018_paper.pdf)
 
 * Pano2CAD: Room Layout From A Single Panorama Image (WACV'17) [[Paper]](http://bjornstenger.github.io/papers/xu_wacv2017.pdf)
@@ -128,7 +132,9 @@ A list of papers for scene understanding.
 | [Matterport3D-Layout][Matterport3D-Layout] (ECCV'20) | RGB-D    | 7360    | PP     | Matterport                      |
 | Structured3D (ECCV'20)                               | RGB-D    | 82027   | AW+SS  | Structured3D                    |
 
-* Learning to Reconstruct 3D Non-Cuboid Room Layout from a Single RGB Image (CoRR'21) [[Paper]](https://arxiv.org/abs/2104.07986) [[Code]](https://github.com/CYang0515/NonCuboidRoom)
+* Learning to Reconstruct 3D Non-Cuboid Room Layout from a Single RGB Image (WACV'22) [[Paper]](https://arxiv.org/abs/2104.07986) [[Code]](https://github.com/CYang0515/NonCuboidRoom)
+
+* RoomStructNet: Learning to Rank Non-Cuboidal Room Layouts From Single View (CoRR'21) [[Paper]](https://arxiv.org/abs/2110.00644)
 
 * GeoLayout: Geometry Driven Room Layout Estimation Based on Depth Maps of Planes (ECCV'20) [[Paper]](https://arxiv.org/abs/2008.06286) [[Matterport3D Layout Dataset]][Matterport3D-Layout]
 
@@ -171,7 +177,10 @@ A list of papers for scene understanding.
 | [MatterportLayout][MatterportLayout] (2020) | RGB-D    | 2295    | MW+SS     | Matterport     |
 | [LayoutMP3D][LayoutMP3D] (2020)             | RGB-D    | 2505    | MW+SS     | Matterport     |
 | Structured3D (ECCV'20)                      | RGB-D    | 196515  | AW+SS     | Structured3D   |
+| [ZInD](Zind) (CVPR'21)                      | RGB      | 71474   | AW+SS     | ZinD           |
 
+* Zillow Indoor Dataset: Annotated Floor Plans With 360˚ Panoramas and 3D Room Layouts (CVPR'21) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cruz_Zillow_Indoor_Dataset_Annotated_Floor_Plans_With_360deg_Panoramas_and_CVPR_2021_paper.pdf) [[Code]](https://github.com/zillow/zind)
+ 
 * OmniLayout: Room Layout Reconstruction from Indoor Spherical Panoramas (CVPR Workshop'21) [[Paper]](https://arxiv.org/abs/2104.09403) [[Code]](https://github.com/rshivansh/OmniLayout)
 
 * LED<sup>2</sup>-Net: Monocular 360˚ Layout Estimation via Differentiable Depth Rendering (CVPR'21) [[Project]](https://fuenwang.ml/project/led2net/) [[Paper]](https://arxiv.org/abs/2104.00568) [[Code]](https://github.com/fuenwang/LED2-Net)
@@ -204,7 +213,7 @@ A list of papers for scene understanding.
 
 ### Point Cloud
 
-* MonteFloor: Extending MCTS for Reconstructing Accurate Large-Scale Floor Plans (CoRR'21) [[Paper]](https://arxiv.org/abs/2103.11161)
+* MonteFloor: Extending MCTS for Reconstructing Accurate Large-Scale Floor Plans (ICCV'21) [[Paper]](https://arxiv.org/abs/2103.11161)
 
 * Scan2Plan: Efficient Floorplan Generation from 3D Scans of Indoor Scenes (CoRR'20) [[Paper]](http://arxiv.org/abs/2003.07356)
 
@@ -214,11 +223,15 @@ A list of papers for scene understanding.
 
 ### Multi-view
 
+* Extreme Structure From Motion for Indoor Panoramas Without Visual Overlaps (ICCV'21) [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Shabani_Extreme_Structure_From_Motion_for_Indoor_Panoramas_Without_Visual_Overlaps_ICCV_2021_paper.pdf)] [[Code](https://github.com/aminshabani/extreme-indoor-sfm)]
+
 * Floorplan-Jigsaw: Jointly Estimating Scene Layout and Aligning Partial Scans (ICCV'19) [[Project]](https://enigma-li.github.io/projects/indoorRecons/floorplanJigsaw.html) [[Paper]](https://enigma-li.github.io/projects/indoorRecons/src/paper/floorplanJigsaw_ICCV2019.pdf)
 
 * DeepPerimeter: Indoor Boundary Estimation from Posed Monocular Sequences (CoRR'19) [[Paper]](https://arxiv.org/abs/1904.11595)
 
 ### Image
+
+* Residential floor plan recognition and reconstruction (CVPR'21) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Residential_Floor_Plan_Recognition_and_Reconstruction_CVPR_2021_paper.pdf)
 
 * Versailles-FP dataset: Wall Detection in Ancient Floor Plans (CoRR'21) [[Paper]](https://arxiv.org/abs/2103.08064)
 
@@ -240,11 +253,17 @@ A list of papers for scene understanding.
 
 Please refer to [Wireframe](https://github.com/Delay-Xili/Wireframe) to see more comprehensive review.
 
-* ELSD: Efficient Line Segment Detector and Descriptor (CoRR'21) [[Paper]](https://arxiv.org/abs/2104.14205)
+* Towards Real-time and Light-weight Line Segment Detection (CoRR'21) [[Paper]](https://arxiv.org/abs/2106.00186) [[Code]](https://github.com/navervision/mlsd)
 
 * Fully Convolutional Line Parsing (CoRR'21) [[Paper]](https://arxiv.org/abs/2104.11207) [[Code]](https://github.com/Delay-Xili/F-Clip)
 
+* ELSD: Efficient Line Segment Detector and Descriptor (ICCV'21) [[Paper]](https://arxiv.org/abs/2104.14205)
+
+* SOLD²: Self-supervised Occlusion-aware Line Description and Detection (CVPR'21) [[Paper]](https://arxiv.org/abs/2104.03362) [[Code]](https://github.com/cvg/SOLD2)
+
 * Line Segment Detection Using Transformers without Edges (CVPR'21) [[Paper]](https://arxiv.org/abs/2101.01909)
+
+* PlueckerNet: Learn to Register 3D Line Reconstructions (CVPR'20) [[Paper]](https://arxiv.org/abs/2012.01096) [[Code]](https://github.com/Liumouliu/PlueckerNet)
 
 * LGNN: A Context-aware Line Segment Detector (ACM MM'20) [[Paper]](https://arxiv.org/abs/2008.05892)
 
@@ -278,7 +297,13 @@ Please refer to [Wireframe](https://github.com/Delay-Xili/Wireframe) to see more
 
 ### Plane
 
-* Planar Surface Reconstruction From Sparse Views (CoRR'21) [[Project]](https://jinlinyi.github.io/SparsePlanes/) [[Paper]](https://arxiv.org/abs/2103.14644) [[Code]](https://github.com/jinlinyi/SparsePlanes)
+* PlaneRecNet: Multi-Task Learning with Cross-Task Consistency for Piece-Wise Plane Detection and Reconstruction from a Single RGB Image (BMVC'21) [[Paper]](https://arxiv.org/abs/2110.11219) [[Code]](https://github.com/EryiXie/PlaneRecNet)
+
+* PlaneTR: Structure-Guided Transformers for 3D Plane Recovery (ICCV'21) [[Paper]](https://arxiv.org/abs/2107.13108) [[Code]](https://github.com/IceTTTb/PlaneTR3D)
+
+* Planar Surface Reconstruction From Sparse Views (ICCV'21) [[Project]](https://jinlinyi.github.io/SparsePlanes/) [[Paper]](https://arxiv.org/abs/2103.14644) [[Code]](https://github.com/jinlinyi/SparsePlanes)
+
+* Indoor Panorama Planar 3D Reconstruction via Divide and Conquer (CVPR'21) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Indoor_Panorama_Planar_3D_Reconstruction_via_Divide_and_Conquer_CVPR_2021_paper.pdf) [[Code]](https://github.com/sunset1995/PanoPlane360)
 
 * Learning Pairwise Inter-Plane Relations for Piecewise Planar Reconstruction (ECCV'20) [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520324.pdf) [[Code]](https://github.com/yi-ming-qian/interplane)
 
@@ -310,3 +335,4 @@ Please refer to [Wireframe](https://github.com/Delay-Xili/Wireframe) to see more
 [Matterport3D-Layout]: https://vsislab.github.io/Matterport3D-Layout/
 [MatterportLayout]: https://github.com/ericsujw/Matterport3DLayoutAnnotation
 [LayoutMP3D]: https://github.com/fuenwang/LayoutMP3D
+[Zind]: https://github.com/zillow/zind
